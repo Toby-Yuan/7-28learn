@@ -23,14 +23,21 @@
         #green{
             color : rgb(81, 190, 81);
         }
+
+        /* 選取器中的空格 : 在前面的標籤之下的所有指定標籤 */
+        div p{
+            color : blue;
+        }
     </style>
 </head>
 <body>
     <h1 class="red">Heading</h1>
     <p class="red" id="green">This is parpagraph 1.</p>
     <p id="green">This is parpagraph 2.</p>
-    <p>This is parpagraph 3.</p>
-    <p>This is parpagraph 4.</p>
+    <div>
+        <p>This is parpagraph 3.</p>
+        <p>This is parpagraph 4.</p>
+    </div>
     <p>This is parpagraph 5.</p>
     <p class="red">This is parpagraph 6.</p>
     <p>This is parpagraph 7.</p>
