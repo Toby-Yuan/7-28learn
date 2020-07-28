@@ -1,0 +1,86 @@
+<!-- 打!+tab就可以建立 -->
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7/28上課內容(html)</title>
+</head>
+<body>
+    <!-- 元素 : 有標籤的 -->
+    <!-- <開始標籤 標籤屬性>inner text/html</結束標籤> -->
+
+    <!-- 用來當頁內連結的節點 -->
+    <a name="top"></a>
+
+    標題與段落
+    <hr>
+    <!-- h開頭的就是標籤 <h1>~<h6> -->
+    <h1 id="text1">It,s work.</h1>
+    <!-- p是段落  <br>可以強制換行 -->
+    <p>同一個段落可能會很長，加上br<br>可以換行</p>
+    <!-- <em>是斜體 <strong>是粗體 -->
+    <p>這是<em>斜體</em>跟<strong>粗體</strong></p>
+
+    功能表
+    <hr>
+    <!-- <ul><li></li></ul>是黑點 -->
+    <ul>
+        <li>清單1</li>
+        <li>清單2</li>
+        <li>清單3</li>
+    </ul>
+    <!-- <ol><li></li></ol>是數字 -->
+    <ol>
+        <li>清單1</li>
+        <li>清單2</li>
+        <li>清單3</li>
+    </ol>
+
+    圖片
+    <hr>
+    <!-- <img src="url"> -->
+    <!-- 絕對位置 : 有清楚的位置 -->
+    <img src="https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+    <!-- 相對位置 : 有起始位置的位置說明, ./ 表示這一層的資料夾 -->
+    <br>
+
+    超連結
+    <hr>
+    <!-- <a href="url">提示文字(也可以放其他東西)</a>, target="_blank" : 可以開另一個分頁 -->
+    <a href="https://tw.yahoo.com/" target="_blank">奇摩連結</a>
+    <!-- 站內連結url : ../ 表示上一層的資料夾 -->
+    <!-- 頁內連結url : #IDname (一頁式) -->
+    <a href="#top">回到最上面</a>
+    <a href="#text1">到最上面的文字</a>
+    <br>
+
+
+    表格
+    <!-- <table> <tr> <td></td> </tr> </table> 注意 : 先<tr>再<td> -->
+    <hr>
+    <table border="1px" width="70%">
+        <caption>標題</caption>
+        <tr>
+            <th>第一項</th>
+            <th>第二項</th>
+            <th>第三項</th>
+        </tr>
+        <tr>
+            <td>1-1</td>
+            <!-- colspan : 跨橫欄 -->
+            <td colspan="2">1-2</td>
+        </tr>
+        <tr>
+            <!-- rowspan : 跨直列 -->
+            <td rowspan="2">2-1</td>
+            <td>2-2</td>
+            <td>2-3</td>
+        </tr>
+        <tr>
+            <td>3-2</td>
+            <td>3-3</td>
+        </tr>
+    </table>
+</body>
+</html>
