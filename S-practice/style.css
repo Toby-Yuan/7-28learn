@@ -1,4 +1,7 @@
 /* padding : 內距, border : 邊界, margin : 外距 */
+/* position: absolute 針對父節點的位置 */
+/* position: static 靜態的(預設) */
+/* position: relative 跟原本的地方相對的位置 */
 
 body{
     padding-left: 11em;
