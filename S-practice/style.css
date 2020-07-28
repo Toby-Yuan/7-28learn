@@ -2,7 +2,7 @@
 /* padding : 上 右 下 左 */
 /* position: absolute 針對父節點的位置 */
 /* position: static 靜態的(預設) */
-/* position: relative 跟原本的地方相對的位置 */
+/* position: relative 跟原本的地方相對的位置(原本的位置會還留著) */
 /* position: fixed 跟瀏覽系視窗的位置固定在那裏(不受捲動影響!!) */
 
 body{
