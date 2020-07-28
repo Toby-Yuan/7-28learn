@@ -1,18 +1,26 @@
 /* padding : 內距, border : 邊界, margin : 外距 */
+/* padding : 上 右 下 左 */
 /* position: absolute 針對父節點的位置 */
 /* position: static 靜態的(預設) */
 /* position: relative 跟原本的地方相對的位置 */
 
 body{
     padding-left: 11em;
+
+    /* font-family : 字型 */
     font-family: Georgia, "Times New Roman", Times, serif;
+    
+    /* color : 字的顏色 */
     color: purple;
+
     /* background: #d8da3d; */
+    /* background-image : 背景圖案, background-repeat : 背景重複方向 */
     background-image: url(./gradientBlue.png);
     background-repeat: repeat-x;
 }
 
 ul.navbar{
+    /* list-style-type : 列表標示的樣式 */
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -23,6 +31,7 @@ ul.navbar{
 }
 
 ul.navbar li{
+    /* 背景顏色 */
     background: white;
     margin: 0.5em 0;
     padding: 0.3em;
@@ -30,6 +39,7 @@ ul.navbar li{
 }
 
 ul.navbar a{
+    /* text-decoration : 超連結樣式 */
     text-decoration: none;
 }
 
@@ -37,10 +47,12 @@ a:link{
     color: blue;
 }
 
+/* a:visitde : 點擊過後的超連結 */
 a:visited{
     color: purple;
 }
 
+/* :hover :滑鼠移上去時 */
 a:hover{
     position: relative;
     top: 1px;
