@@ -1,0 +1,9 @@
+/* 當螢幕寬度小於等於900時 */
+
+@media screen and (max-width: 900px) {
+
+    body {
+        color: red;
+    }
+
+}
