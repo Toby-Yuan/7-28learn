@@ -2,7 +2,9 @@ body{
     padding-left: 11em;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: purple;
-    background: #d8da3d;
+    /* background: #d8da3d; */
+    background-image: url(./gradientBlue.png);
+    background-repeat: repeat-x;
 }
 
 ul.navbar{
