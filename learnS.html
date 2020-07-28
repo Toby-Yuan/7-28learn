@@ -19,14 +19,15 @@
         }
 
         /* #idName : 可以更精準的設定指定項 */
+        /* id的權重會比class高 #=100 .=10 */
         #green{
-            color : green;
+            color : rgb(81, 190, 81);
         }
     </style>
 </head>
 <body>
     <h1 class="red">Heading</h1>
-    <p class="red">This is parpagraph 1.</p>
+    <p class="red" id="green">This is parpagraph 1.</p>
     <p id="green">This is parpagraph 2.</p>
     <p>This is parpagraph 3.</p>
     <p>This is parpagraph 4.</p>
