@@ -41,11 +41,27 @@
         #div3:hover{
             transform: scale(2,3);
         }
+
+        /* animation : 可以製作動畫劇本 */
+        #div4{
+            width: 100px;
+            height: 100px;
+            background: blue;
+            animation: changeColor 10s;
+        }
+
+        @keyframes changeColor{
+            0%{background: red;}
+            50%{background: green;}
+            100%{background: blue;}
+        }
     </style>
 </head>
 <body>
     <div id="div1"></div>
     <div id="div2"></div>
     <div id="div3"></div>
+
+    <div id="div4"></div>
 </body>
 </html>
