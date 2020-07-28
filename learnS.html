@@ -14,20 +14,25 @@
         /* .className : 可以一起設定多項 (.這個點很重要) */
         /* class不限於同一種標籤 */
         /* 若前面有指定標籤，則必須為同種標籤才有效果 */
-        p.p1{
+        p.red{
             color : red;
+        }
+
+        /* #idName : 可以更精準的設定指定項 */
+        #green{
+            color : green;
         }
     </style>
 </head>
 <body>
-    <h1 class="p1">Heading</h1>
-    <p class="p1">This is parpagraph 1.</p>
-    <p>This is parpagraph 2.</p>
+    <h1 class="red">Heading</h1>
+    <p class="red">This is parpagraph 1.</p>
+    <p id="green">This is parpagraph 2.</p>
     <p>This is parpagraph 3.</p>
     <p>This is parpagraph 4.</p>
     <p>This is parpagraph 5.</p>
-    <p class="p1">This is parpagraph 6.</p>
+    <p class="red">This is parpagraph 6.</p>
     <p>This is parpagraph 7.</p>
-    <p class="p1">This is parpagraph 8.</p>
+    <p class="red">This is parpagraph 8.</p>
 </body>
 </html>
