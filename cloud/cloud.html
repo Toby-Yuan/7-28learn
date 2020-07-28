@@ -31,6 +31,18 @@
             height: 168px;
             background-image: url(./cloud.jpg);
             background-repeat: repeat-x;
+            -webkit-animation: rollImage linear 12s infinite;
+            animation: rollImage linear 12s infinite;
+        }
+
+        @-webkit-keyframes rollImage{
+            from {right : 0px}
+            to { right : 300px}
+        }
+
+        @keyframes rollImage{
+            from {right : 0px}
+            to { right : 300px}
         }
     </style>
 </head>
@@ -45,3 +57,4 @@
 
 <!-- outline : 框的框 -->
 <!-- overflow : 若內容過多的處理方法 hidden(隱藏) scroll(滾輪) -->
+<!-- -webkit : 表示在chrome的環境之下，如果各環境都允許可不加 -->
