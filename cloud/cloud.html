@@ -32,10 +32,22 @@
             background-image: url(./cloud.jpg);
             background-repeat: repeat-x;
             -webkit-animation: rollImage linear 12s infinite;
+            -moz-animation: rollImage linear 12s infinite;
+            -ms-animation: rollImage linear 12s infinite;
             animation: rollImage linear 12s infinite;
         }
 
         @-webkit-keyframes rollImage{
+            from {right : 0px}
+            to { right : 300px}
+        }
+
+        @-moz-keyframes rollImage{
+            from {right : 0px}
+            to { right : 300px}
+        }
+
+        @-ms-keyframes rollImage{
             from {right : 0px}
             to { right : 300px}
         }
