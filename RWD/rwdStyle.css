@@ -1,11 +1,6 @@
 /* 當螢幕寬度小於等於900時 */
 
 @media screen and (max-width: 900px) {
-
-    body {
-        color: red;
-    }
-
     div.one-third{
         width: 47.5%;
     }
@@ -21,4 +16,18 @@
         padding: 20px 0 0 0;
     }
 
+}
+
+/* 當螢幕寬度小於等於500時 */
+@media screen and (max-width: 500px){
+
+    div.mobile-collapse {
+		width: auto;
+		float: none;
+		margin-right: 0;
+	}
+	
+	.hide-mobile {
+		display: none;
+	}
 }
